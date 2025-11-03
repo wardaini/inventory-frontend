@@ -1,16 +1,64 @@
-# React + Vite
+# Inventory Management System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern web application untuk manajemen inventori dengan UI yang responsive.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ User Authentication (Login/Register)
+- ✅ Dashboard with Statistics
+- ✅ Product Management (CRUD)
+- ✅ Search & Filter Products
+- ✅ Low Stock Alerts
+- ✅ Role-Based UI
+- ✅ Profile Management
+- ✅ Responsive Design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Recharts
+- Lucide React (Icons)
+- React Hot Toast
 
-## Expanding the ESLint configuration
+## Installation
+```bash
+# Clone repository
+git clone https://github.com/username/inventory-frontend.git
+cd inventory-frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env
+# Edit .env with your backend API URL
+
+# Start development server
+npm run dev
+```
+
+## Environment Variables
+```
+VITE_API_URL=http://localhost:5000/api
+```
+
+## Build for Production
+```bash
+npm run build
+```
+
+## Deployment
+
+Deployed on Vercel: https://inventory-system.vercel.app
+
+## Screenshots
+
+(Tambahkan screenshots aplikasi Anda di sini)
+
+## License
+
+MIT
