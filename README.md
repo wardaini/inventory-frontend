@@ -1,7 +1,5 @@
 # Inventory Management System - Frontend
 
-Modern web application untuk manajemen inventori dengan UI responsive dan fitur keamanan lengkap.
-
 ## 🚀 Live Demo
 
 **Application:** https://inventory-frontend-tm8n.vercel.app
